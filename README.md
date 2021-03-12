@@ -15,7 +15,7 @@ https://github.com/StebinAlex/InfiniteSlider.git
 
 Import `InfiniteSlider`
 
-Use `InfiniteSlider` for Picker view.
+Use `InfiniteSlider` for Creating SliderView. The below code is using local images.
 ```
 let slider = InfiniteSlider(frame: CGRect(x: 0, y: 0, width: 300, height: 250))
 slider.center = self.view.center 
@@ -32,6 +32,10 @@ Also you can use image urls for displaying images.
 
 ```
 slider.imageUrls = ["url1","url2"]
+```
+While loading image from url you can show placeholder image
+```
+slider.placeHolderImage = UIImage(named: "placeholderImage.png")
 ```
 For manually move image use below functions
 ```
