@@ -7,6 +7,10 @@ Use following link to add package to your project and use latest version for sta
 
 https://github.com/StebinAlex/InfiniteSlider.git
 
+### Sample Gif
+![infiniteSlider](https://user-images.githubusercontent.com/72264665/110941438-63d4ff80-835e-11eb-8be9-035546d17623.gif)
+
+
 ## Usage 
 
 Import `InfiniteSlider`
